@@ -4,6 +4,7 @@ background-color: rgb(236, 232, 232);
 
 .container{
     display: flex;
+    margin-top: 180px;
     
     
 }
@@ -11,7 +12,8 @@ background-color: rgb(236, 232, 232);
 .left{
    
     width: 50%;
-    margin: 180px 140px;
+    margin-left: 140px;
+    margin-right: 100px;
 }
 .para{
     
@@ -22,16 +24,19 @@ background-color: rgb(236, 232, 232);
 }
 
 .logo{
+    margin-top: 50px;
     width: 400px;
+    margin-bottom: -50px;
 }
 
 .right{
+    
     background-color: white;
     border-radius: 10px;
    
     width: 40%;
-    margin: 140px ;
-    margin-left: 50px;
+    
+    margin-right:250px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
